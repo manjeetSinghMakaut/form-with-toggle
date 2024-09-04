@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+
+ <form id="loginForm"  class="form active">
+    <h2>Login</h2>
+    <input type="text" id="username" placeholder="Username" required>
+    <input type="email"  id="email" placeholder="Email" required>
+    <input type="password"  id="password" placeholder="Password" required>
+    <button type="submit">Login</button>
+    <p id="toggleToregister">Don't have an account? <span>Register here</span></p>
+
+ </form>
+ <form  id="registerForm"  class="form">
+    <h2>Register</h2>
+    <input type="text" placeholder="Username" required>
+    <input type="email" placeholder="Email" required>
+    <input type="password" placeholder="Password" required>
+    <button type="submit">Register</button>
+    <p id="toggleToLogin">Already have an account? <span>Login here</span></p>
+
+ </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
